@@ -1,4 +1,4 @@
-
+/*
 /* ==========================================================================
    Base styles:
    ========================================================================== */
@@ -60,7 +60,7 @@ h1 {
   text-align: left;
   margin-left: 20px;
   padding-top: 105px;
-  background-color: red;
+
 }
 
 h2 {
@@ -73,7 +73,6 @@ h2 {
 h3 {
   font-size: 24px;
   text-align: center;
-  background-color: gray;
   }
 
 .headerh3 {
@@ -87,7 +86,7 @@ h3 {
 }
 
 .intro-text {
-  max-width: 600px;
+  max-width: 800px;
   margin: auto;
   padding-bottom: 20px;
 }
@@ -95,27 +94,22 @@ h3 {
 h4 {
   font-size: 18px;
   text-align: center;
-  background-color: blue;
 }
 
-.footercopy {
-  font-size: 13px;
-}
 
 nav {
-
-    background-color:  white;
     position: fixed;*/
     z-index: 100;
     top: 0;
     width: 100%;
     height: 50px;
     padding-bottom: 1px;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
     display: flex;
     flex-basis; 100;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: white;
 
 }
 
@@ -131,14 +125,6 @@ nav a {
 
 }
 
-/*.social-links a {
-	font-size: 20px;
-	padding: 10px;
-	display: inline-block;
-	color: #44545E;
-  text-align: left;
-  margin-left: 20px;*/
-}
 
 .work {
   margin: 50px;
@@ -153,17 +139,21 @@ nav a {
   padding-right: 100px;
   display: flex;
   flex-basis: 100;
+
 }
 
 .things-copy {
   margin: 0;
 }
 
-
 .contact {
   margin: 50px;
   display: flex;
   flex-basis: 100;
+}
+
+.footercopy {
+  font-size: 13px;
 }
 
 /* ----------------------------------------
@@ -199,18 +189,27 @@ section{
   margin: 10px;
   justify-content: center;
 
+
 }
 
 .col-3-3-3 {
   margin: 20px 40px 40px 40px;
   flex-basis: 33%;
-  flex-wrap: wrap;
+
 
 }
 .col-2-3 {
   margin: 20px 60px 60px 60px;
-	flex-basis: 64%;
-  flex-wrap: wrap;
+	flex-basis: 50%;
+}
+
+.social-links a {
+	font-size: 20px;
+	padding: 10px;
+	display: inline-block;
+	color: #44545E;
+  text-align: center;
+  margin-left: 20px;
 }
 
 /* ----------------------------------------
@@ -226,12 +225,12 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-  section {
+  .row {
     flex-basis: 50%;
   }
 }
 @media screen and (max-width: 400px) {
-  section {
+  .row {
     flex-basis: 100%;
   }
-}
+}*/
