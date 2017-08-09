@@ -59,7 +59,7 @@ h1 {
   font-weight: 400;
   text-align: left;
   margin-left: 20px;
-  padding-top: 105px;
+  padding-top: 85px;
 
 }
 
@@ -110,7 +110,6 @@ nav {
     flex-wrap: wrap;
     justify-content: center;
     background-color: white;
-
 }
 
 nav a {
@@ -122,7 +121,6 @@ nav a {
   border-bottom: none;
 	text-transform: uppercase;
   color: #3C3B3F;
-
 }
 
 
@@ -172,6 +170,7 @@ header {
   height: 400px;
   padding: 0;
   display: flex;
+  height: 800px; 
 
 
 }
