@@ -71,6 +71,7 @@ h2 {
   font-weight: 700;
   padding: 10px;
   font-weight: bold;
+  /*font-family: 'Amatic SC', cursive;*/
 
 }
 
@@ -99,60 +100,64 @@ h3 {
 h4 {
   font-size: 18px;
   text-align: center;
-  font-style: italic;
+  /*font-style: italic;*/
+  /*font-family: 'Amatic SC', cursive;*/
 }
 
 
 nav {
     position: fixed;
-    background-color: white;
     width: 100%;
-    /*z-index: 100;*/
+    z-index: 1;
     top: 0;
 
     /*height: 50px;*/
     padding-bottom: 1px;
     margin-bottom: 10px;
-    display: flex;
+    /*display: flex;*/
     flex-basis; 100;
     flex-wrap: wrap;
     justify-content: center;
     background-color: white;
+
 }
 
 nav a {
 	font-weight: 600;
 	letter-spacing: 0.75px;
 	padding: 20px 60px;
-	display: flex;
+	display: inline-block;
   flex-wrap: wrap;
   border-bottom: none;
 	text-transform: uppercase;
   color: #3C3B3F;
+
 }
 
 
 .work {
   margin: 50px;
   display: flex;
-  z-index: -1;
+
 }
 
 .fave-things {
-  margin: 20px 50px
+  /*margin: 20px 50px*/
   text-align: center;
   line-height: 36px;
-  padding-left: 100px;
-  padding-right: 100px;
+  /*padding-left: 100px;
+  padding-right: 100px;*/
   display: flex;
-  flex-basis: 100;
-  opacity: 0;
+  flex-basis: 100%;
+  opacity: 1;
   transform: rotate(-90deg);
   transform: scale(.6, .6);
+  font-size: 14px;
+
 }
 
 .things-copy {
-  margin: 0;
+  /*margin: 0;*/
 }
 
 .contact {
@@ -234,7 +239,7 @@ section{
 Projects
 ------------------------------------------- */
 
-.projects div {
+.projects div, .fave-things div {
   opacity: 0;
   transform: rotate(-90deg);
   transform: scale(.6, .6);
@@ -254,6 +259,7 @@ footer {
 }
 
 @media screen and (max-width: 970px) {
+
   .row {
     flex-basis: 50%;
     flex-wrap: wrap;
@@ -278,4 +284,9 @@ footer {
   .col-3-3-3 {
     flex-basis: 100%;
   }
+
+  nav a {
+    text-align: center;
+    display: block;
+
 }*/
