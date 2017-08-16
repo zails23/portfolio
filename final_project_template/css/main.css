@@ -142,23 +142,16 @@ nav a {
 }
 
 .fave-things {
-  /*margin: 20px 50px*/
   text-align: center;
   line-height: 36px;
-  /*padding-left: 100px;
-  padding-right: 100px;*/
   display: flex;
   flex-basis: 100%;
   opacity: 1;
   transform: rotate(-90deg);
-  transform: scale(.6, .6);
+  transform: scale(1, 1);
   font-size: 14px;
-
 }
 
-.things-copy {
-  /*margin: 0;*/
-}
 
 .contact {
   margin: 50px;
@@ -167,12 +160,6 @@ nav a {
   text-align: center;
 }
 
-.footercopy {
-  diplay: flex;
-  font-size: 13px;
-  text-align: center;
-  align-items: center;
-}
 
 /* ----------------------------------------
 Lists
@@ -192,9 +179,6 @@ header {
   height: 700px;
   justify-content: center;
   align-items: center;
-
-
-
 }
 
 section{
@@ -210,8 +194,6 @@ section{
   margin: 10px;
   justify-content: center;
   text-align: center;
-
-
 }
 
 .col-3-3-3 {
@@ -240,7 +222,7 @@ Projects
 ------------------------------------------- */
 
 .projects div, .fave-things div {
-  opacity: 0;
+  opacity: 1;
   transform: rotate(-90deg);
   transform: scale(.6, .6);
 }
@@ -253,11 +235,16 @@ Projects
 /* ----------------------------------------
 Footer
 ------------------------------------------- */
-footer {
-  display: flex;
-  flex-basis: 100;
+.footercopy {
+  diplay: flex;
+  font-size: 10px;
+  text-align: center;
+  align-items: center;
 }
 
+/* ----------------------------------------
+Responsive
+------------------------------------------- */
 @media screen and (max-width: 970px) {
 
   .row {
@@ -272,7 +259,7 @@ footer {
   .col-2-3 {
     flex-basis: 100%;
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 770px) {
   .row {
     flex-basis: 100%;
     flex-wrap: wrap;
@@ -288,5 +275,9 @@ footer {
   nav a {
     text-align: center;
     display: block;
+}
+  nav {
+    background-color: none;
+  }
 
-}*/
+*/
