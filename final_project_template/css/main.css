@@ -78,22 +78,6 @@ h3 {
   text-align: center;
   }
 
-.headerh3 {
-  /*text-align: left;*/
-  /*margin-left: 20px;*/
-
-}
-
-.headerp {
-  /*text-align: left;*/
-  /*margin-left: 20px;*/
-}
-
-.intro-text {
-  max-width: 800px;
-  margin: auto;
-  padding-bottom: 50px;
-}
 
 h4 {
   font-size: 18px;
@@ -113,7 +97,7 @@ nav {
     flex-basis; 100;
     flex-wrap: wrap;
     justify-content: center;
-    background-color:  #e6ffff;
+    background-color:  #ffffff;
 
 }
 
@@ -129,41 +113,6 @@ nav a {
 
 }
 
-
-.work {
-  margin: 50px;
-  display: flex;
-
-}
-
-.fave-things {
-  text-align: center;
-  line-height: 36px;
-  display: flex;
-  flex-basis: 100%;
-  opacity: 1;
-  transform: rotate(-90deg);
-  transform: scale(1, 1);
-  font-size: 14px;
-}
-
-
-.contact {
-  margin: 50px;
-  display: flex;
-  flex-basis: 100;
-  text-align: center;
-}
-
-
-/* ----------------------------------------
-Lists
-------------------------------------------- */
-
-
-/* ----------------------------------------
-Layout
-------------------------------------------- */
 
 header {
   background-image: url('../img/boraborawater.JPG');
@@ -181,6 +130,21 @@ section{
   flex-direction: column;
 }
 
+.intro-text {
+  max-width: 800px;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+/* ----------------------------------------
+Work
+------------------------------------------- */
+
+.work {
+  margin: 50; 
+  display: flex;
+
+}
 
 .row {
 	display: flex;
@@ -202,19 +166,6 @@ section{
 	flex-basis: 50%;
 }
 
-.social-links a {
-	font-size: 20px;
-	padding: 10px;
-	display: inline-block;
-	color: #44545E;
-  text-align: center;
-  align-items: center;
-
-}
-
-/* ----------------------------------------
-Projects
-------------------------------------------- */
 
 .projects div, .fave-things div {
   opacity: 1;
@@ -227,14 +178,60 @@ Projects
   transition: all .3s ease-in-out;
   transform: scale(1, 1);
 }
+
+.fave-things {
+  text-align: center;
+  line-height: 36px;
+  display: flex;
+  flex-basis: 100%;
+  opacity: 1;
+  transform: rotate(-90deg);
+  transform: scale(1, 1);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+/* ----------------------------------------
+Contact
+------------------------------------------- */
+
+
+.contact {
+  margin: 50px;
+  display: flex;
+  flex-basis: 100;
+  text-align: center;
+}
+
+.social-links a {
+	font-size: 35px;
+	padding: 10px;
+	display: inline-block;
+	color: #44545E;
+  text-align: center;
+  align-items: center;
+
+}
+
+
 /* ----------------------------------------
 Footer
 ------------------------------------------- */
+
 .footercopy {
   diplay: flex;
-  font-size: 10px;
+  font-size: 11px;
   text-align: center;
   align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-top: 2px;
+}
+
+footer {
+  background-color: #ffffff;
+
 }
 
 /* ----------------------------------------
@@ -254,7 +251,8 @@ Responsive
   .col-2-3 {
     flex-basis: 100%;
 }
-@media screen and (max-width: 770px) {
+
+@media screen and (max-width: 771px) {
   .row {
     flex-basis: 100%;
     flex-wrap: wrap;
@@ -270,9 +268,8 @@ Responsive
   nav a {
     text-align: center;
     display: block;
+    padding: 10px 20px;
+
 }
-  nav {
-    background-color: none;
-  }
 
 */

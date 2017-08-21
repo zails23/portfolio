@@ -7,7 +7,7 @@ $(window).on('scroll', function () {
   if ($(document).scrollTop() >= 750) {
     $('.projects').addClass('faded-in');
   }
-  if ($(document).scrollTop() >= 2013) {
+  if ($(document).scrollTop() >= 2276) {
     $('.fave-things').addClass('faded-in');
   }
 });
